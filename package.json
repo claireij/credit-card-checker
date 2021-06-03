@@ -1,9 +1,9 @@
 {
   "name": "credit-card-checker-starter",
   "version": "1.0.0",
-  "main": "main.js",
+  "main": "start.js",
   "scripts": {
-    "start": "node main.js"
+    "start": "node start.js"
   },
   "author": "",
   "license": "ISC",
