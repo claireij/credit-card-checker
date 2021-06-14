@@ -1,12 +1,11 @@
+//Import Express module
 var express = require("express"); 
-var app = express(); 
-var path = require("path"); 
 
+//Creating En express appliction
+var app = express(); 
+
+//Enable application to serve static files via middleware
 app.use(express.static(__dirname + '/public'));
 
-// app.get('/',function(req,res){ 
-//   res.sendFile(path.join(__dirname+'/index.html')); 
-//   //__dirname : It will resolve to your project folder. 
-// }); 
 app.listen(process.env.PORT || 3000);
 console.log("Server running at Port 3000"); 
